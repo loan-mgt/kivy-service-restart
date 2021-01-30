@@ -409,3 +409,10 @@ if __name__ == '__main__':
     pyservice.mService.setAutoRestartService(True)
 ```
 ActivityManager: Process org.kivy.oscservice:service_Pong (pid 27830) has died: svc SVC 
+
+01-30 23:55:00.012  1315  4034 I ActivityManager: Process org.kivy.oscservice:service_Pong (pid 29178) has died: svcb SVC 
+01-30 23:55:00.012  1315  4034 W ActivityManager: Scheduling restart of crashed service org.kivy.oscservice/.ServicePong in 1000ms
+01-30 23:55:01.041  1315  1471 I ActivityManager: Start proc 29428:org.kivy.oscservice:service_Pong/u0a165 for service org.kivy.oscservice/.ServicePong
+01-30 23:55:01.169 29428 29428 E AndroidRuntime: Process: org.kivy.oscservice:service_Pong, PID: 29428
+01-30 23:55:01.169 29428 29428 E AndroidRuntime: java.lang.RuntimeException: Unable to start service org.kivy.oscservice.ServicePong@ae87b11 with null: java.lang.NullPointerException: Attempt to invoke virtual method 'android.os.Bundle android.content.Intent.getExtras()' on a null object reference
+
