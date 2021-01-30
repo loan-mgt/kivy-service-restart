@@ -408,3 +408,4 @@ if __name__ == '__main__':
     pyservice = autoclass('org.kivy.android.PythonService')
     pyservice.mService.setAutoRestartService(True)
 ```
+ActivityManager: Process org.kivy.oscservice:service_Pong (pid 27830) has died: svc SVC 
