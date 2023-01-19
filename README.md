@@ -7,6 +7,8 @@ the service work but doesn’t restart
 the code doesn't give an error
 Does someone know what I did wrong?
 
+[link to stackoverflow question](https://stackoverflow.com/questions/65859554/kivy-service-wont-restart-autorestart)
+
 
 **the architecture of my file:**
  
